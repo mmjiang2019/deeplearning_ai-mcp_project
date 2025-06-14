@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": "",
+            "env": {
+                "ANTHROPIC_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcHAiLCJleHAiOjE3OTk5OTk5OTksInN1YiI6MzA5MTk3MiwiYXVkIjoiV0VCIiwiaWF0IjoxNjk0MDc2ODUxfQ.mdk4NWMtbpZisEQyHewUKNpkMnJPqbrt8aD6Lpubquw",
+                "ANTHROPIC_AUTH_TOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcHAiLCJleHAiOjE3OTk5OTk5OTksInN1YiI6MzA5MTk3MiwiYXVkIjoiV0VCIiwiaWF0IjoxNjk0MDc2ODUxfQ.mdk4NWMtbpZisEQyHewUKNpkMnJPqbrt8aD6Lpubquw",
+                "ANTHROPIC_BASE_URL": "http://jupyter-api-proxy.internal.dlai/rev-proxy/anthropic",
+                "DLAI_LOCAL_URL": "https://s172-29-54-157p{port}.lab-aws-production.deeplearning"
+            },
+        }
+    ]
+}
