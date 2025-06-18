@@ -53,6 +53,7 @@ def search_papers(topic: str, max_results: int = 5) -> List[str]:
         paper_ids.append(paper.get_short_id())
         paper_info = {
             'title': paper.title,
+            'paper_id': paper.get_short_id(),
             'authors': [author.name for author in paper.authors],
             'summary': paper.summary,
             'pdf_url': paper.pdf_url,
