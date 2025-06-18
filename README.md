@@ -39,3 +39,8 @@ uv pip install -r requirements.txt
 nvm use v22.16.0
 ## 安装 MCP inspector
 npx @modelcontextprotocol/inspector uv run research_server_stdio.py
+
+# Web 部署
+JMM2015@163.com
+https://dashboard.render.com/
+## 创建新的 Web 服务
